@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.3" name="name.mikkoostlund.loginmodules">
+    <resources>
+        <resource-root path="wildfly_8.2.0.Final-SaltedDatabaseServerLoginModule-0.0.1.Final.jar"/>
+    </resources>
+
+    <dependencies>
+        <module name="javax.api"/>
+        <module name="org.picketbox"/>
+    </dependencies>
+</module>
